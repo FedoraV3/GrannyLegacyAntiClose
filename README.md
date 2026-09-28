@@ -6,6 +6,7 @@ You can get the dll from this repo and compare it to the original dll. You will 
 
 # If you are still paranoid but want the crack by doing what i did for you already
 You can patch these specific array of bytes: `33 C9 E9 99 F2 FF FF`
+
 Replace it with `90 90 EB 0C 90 90 90`
 
 In assembly the original code is before replacing it:
