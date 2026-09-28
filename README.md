@@ -21,3 +21,7 @@ nop ; so that it lines up with the last bytes of xor ecx,ecx
 jmp short SteamAPI_InitAnonymousUser() ; this is basically what it does
 ```
 That is basically what it does. it makes SteamAPI_Init() jump to SteamAPI_InitAnonymousUser() so that SteamAPI_Init() does not error due to the game not being owned
+
+
+# Thoughts
+I am pretty surprised. this is oddly simple mechanisms so it makes sure people own the game by using an error steamapi_init() returns
